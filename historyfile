@@ -1,0 +1,118 @@
+    1  git clone https://github.com/w1ndblow/files.git
+    2  ls
+    3  ls | grep filea
+    4  ls | grep files
+    5  clear
+    6  clear
+    7  ls -l
+    8  clear
+    9  cut
+   10  man cut
+   11  cut man
+   12  cut -help
+   13  cut
+   14  cut --help
+   15  awk --help
+   16  find test
+   17  ls
+   18  ls
+   19  alias 11='ls -al'
+   20  11
+   21  11a
+   22  alias 11='ls'
+   23  11 -la
+   24  cd Downloads/
+   25  cd files-master
+   26  ls
+   27  pwd
+   28  pwd
+   29  mk test
+   30  clear
+   31  mkdir myrepo
+   32  cd myrepo/
+   33* git s
+   34  git status
+   35  > preferences.txt
+   36  nano preferences.txt 
+   37  git status
+   38  git add preferences.txt 
+   39  git status
+   40  git commit -m 'initial'
+   41  git config --global user.email "admin@mail.ru"
+   42  git config --global user.name "Roma"
+   43  git commit -m 'initial'
+   44  git status
+   45  git diff
+   46  git remote add origin https://github.com/RooGoo/workshop.git
+   47  git remote show origin
+   48  git fetch origin
+   49  git merge origin/master
+   50  git merge origin/master --allow-urelated-histories
+   51  git merge origin/master --allow-unrelated-histories
+   52  history
+   53  clear
+   54  git remote show origin
+   55  git diff
+   56  git status
+   57  ls
+   58  ls -la
+   59  cd ~
+   60  ls
+   61  ls -la
+   62  mkdir .ssh
+   63  cd .ssh
+   64  ssh-keygen
+   65  ls 
+   66  ls -la
+   67  ssh-keygen
+   68  ls -la
+   69  cat github.pub 
+   70  cat github
+   71  clear
+   72  cat config
+   73  > config
+   74  nano config 
+   75  nano config 
+   76  nano config 
+   77  cat config 
+   78  ls
+   79  cd ..
+   80  ls -la
+   81  cd myrepo/
+   82  git remote add alfa git@github.com:RooGoo/workshop.git
+   83  cd ..
+   84  cd myrepo/
+   85  ls -ls
+   86  remote
+   87  git remote
+   88  git fetch alfa
+   89  nano preferences.txt 
+   90  git status
+   91  git diff
+   92  git  commit -am 'change'
+   93  git diff --staged
+   94  cd ../.ssh
+   95  cat config 
+   96  cd ../myrepo/
+   97  git -u push alfa/master
+   98  git push -u alfa/master
+   99  history
+  100  git push -u alfa
+  101  cd ..
+  102  ls -la
+  103* 
+  104  mkdir test
+  105  cd test
+  106  git clone git@github.com:RooGoo/workshop.git
+  107  echo "test" > testfile
+  108  cat testfile 
+  109  git add testfile 
+  110  git init
+  111  git add testfile 
+  112  git commit -m 'ttt'
+  113  git push alfa
+  114  git push --set-upstream alfa master
+  115  cd ../myrepo/
+  116  ls -la
+  117  history
+  118  history > historyfile
