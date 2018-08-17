@@ -116,3 +116,32 @@
   116  ls -la
   117  history
   118  history > historyfile
+  119  git add historyfile
+  120  git commit -m 'historyfile'
+  121  git push alfa
+  122  ssh-add ~/.ssh/github
+  123  git-log
+  124  git log
+  125  man git-log
+  126  man git log
+  127* man git 
+  128  git log --online
+  129  git log --oneline
+  130  git help log
+  131  cd ..
+  132  ls -la
+  133  cd myrepo/
+  134  ls -la
+  135  cd .git
+  136  ls -la
+  137  cd objects/
+  138  ls -la
+  139  cd 1b/
+  140  ls -la
+  141  cd 8bd8dcd519935c943a775964a0cdf30a2e5e77 
+  142  cat 8bd8dcd519935c943a775964a0cdf30a2e5e77 
+  143  cd ../../
+  144  ls -la
+  145  cd ..
+  146  ls -la
+  147  history > historyfile
